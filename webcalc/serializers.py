@@ -1,6 +1,6 @@
 from django.forms import widgets
 from rest_framework import serializers
-
+from webcalc.models import Project
 
 class ProjectSerializer(serializers.ModelSerializer):
 	class Meta:
